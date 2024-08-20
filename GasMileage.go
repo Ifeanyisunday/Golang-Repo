@@ -12,5 +12,5 @@ func main() {
 	fmt.Scanln(&gallon)
 
 	var result float64 = gallon / miles
-	fmt.Printf("%.2f", result)
+	fmt.Printf("%s %.2f", "gallon per mile =", result)
 }
